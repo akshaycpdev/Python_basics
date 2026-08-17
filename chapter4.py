@@ -30,3 +30,4 @@ student = {
     }
 }
 print(student)
+print(student["score"]["Physics"])
