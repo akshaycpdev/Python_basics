@@ -9,3 +9,9 @@ print(dict)
 print(dict["name"])
 print(dict["Marks"])
 print(dict["CGPA"])
+
+
+null_dict = {}
+null_dict['name'] = "Xyz"
+print(null_dict)
+print(type(null_dict))
