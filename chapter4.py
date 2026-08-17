@@ -41,3 +41,15 @@ print(student["score"]["Physics"])
 # .get("key"): Returns value for that key
 # .update(newDict): Adds new key-value pairs
 
+
+print(student.keys())
+print(list(student.keys()))
+print(student.values())
+print(student.items())
+print(student.get("score"))
+
+print(student.update({"city":"Mangaluru"})) 
+# new_dict = {"city": "delhi"} 
+# student.update(new_dict)
+ 
+print(student)
