@@ -31,3 +31,13 @@ student = {
 }
 print(student)
 print(student["score"]["Physics"])
+
+
+
+## Dictionary Methods
+# .keys(): Returns all keys
+# .values(): Returns all values
+# .items(): Returns key-value pairs
+# .get("key"): Returns value for that key
+# .update(newDict): Adds new key-value pairs
+
