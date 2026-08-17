@@ -1,3 +1,5 @@
+## Dictionary and Sets
+
 dict = {
     "name": "Akshay",
     "Subjects": ["C Program", "Python", "Java", "ADA", "DSA"],
@@ -15,3 +17,16 @@ null_dict = {}
 null_dict['name'] = "Xyz"
 print(null_dict)
 print(type(null_dict))
+
+
+## Nested Dictionary
+
+student = {
+    "name": "Akshay",
+    "score" : {
+        "Maths": 93,
+        "Physics": 90,
+        "Chemistry": 96
+    }
+}
+print(student)
